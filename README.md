@@ -11,7 +11,7 @@ Rayi 的跨專案 AI 工作小隊。成員可新增、調整或退役，不限�
 4. 執行前確認工具、工作目錄和權限；不得沿用其他專案的傳送或推送授權。
 
 ## 初始成員
-- [Tracy：協調與 UI/UX PM](members/TRACY.md)
+- [Tracy：團隊協調與執行負責人](members/TRACY.md)
 - [Frank：Staff RD](members/FRANK.md)
 - [Bob：資深 DQA](members/BOB.md)
 
