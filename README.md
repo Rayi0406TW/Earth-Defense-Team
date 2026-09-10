@@ -22,3 +22,11 @@ Rayi 的跨專案 AI 工作小隊。成員可新增、調整或退役，不限�
 新增成員採 [角色模板](templates/MEMBER.md)，更新名冊並記錄 [變更](CHANGELOG.md)。只有使用者確認的長期偏好才更新共同原則；臨時要求留在該案紀錄。每次有授權的里程碑提交可回查版本，不自動推送所有修改。
 
 換主機取得本庫後，為需要的角色建立任務並明確要求讀取角色文件。這些文件不會自行建立任務、載入全部記憶或解除平台審核。帳密與憑證另行設定，不入庫。
+
+## 一句話開案 Skill
+
+[地球防衛隊開案](skills/earth-defense-team-start/SKILL.md) 可讀取本庫最新角色，而不重複儲存角色內容。
+
+每台主機將 `skills/earth-defense-team-start` 資料夾完整複製至使用者的 `~/.codex/skills/`（Windows 通常是 `%USERPROFILE%\.codex\skills\`；若有自訂 CODEX_HOME 則使用其 skills 目錄）。讓新任務可發現此 Skill 後，使用 `$earth-defense-team-start`，並提供小隊本機路徑和本次工作目標。可另設定 EARTH_DEFENSE_TEAM_HOME 指向小隊 checkout，避免每次輸入。小隊倉庫更新不會自動更新已複製的 Skill，更新時同步複製。
+
+自然語句：「用地球防衛隊接手這個專案，目標是……」。若新任務未列出 Skill，先重新開啟任務或重新載入技能，再確認，不把安裝檔存在當成已載入。
