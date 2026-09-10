@@ -13,7 +13,7 @@ Rayi 的跨專案 AI 工作小隊。成員可新增、調整或退役，不限�
 ## 初始成員
 - [Tracy：協調與 UI/UX PM](members/TRACY.md)
 - [Frank：Staff RD](members/FRANK.md)
-- [Bob：Senior DQA / UX Monkey](members/BOB.md)
+- [Bob：資深 DQA](members/BOB.md)
 
 ## 分層
 此私人庫只放小隊共用資料；客戶程式庫放該案規格、實作及必要交接，不複製個人偏好。專案狀態留在各專案，不在本庫假設任何案子永遠是目前工作。
